@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>India Traffic Modeler</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+<div class="app" id="app">
+  <header>
+    <h1>India Traffic Modeler</h1>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <input id="origin" type="text" placeholder="Origin (city or address)" />
+      <input id="destination" type="text" placeholder="Destination (city or address)" />
+      <button id="routeBtn">Get Route</button>
+    </aside>
+    <section class="map-wrap"> 
+      <div id="map"></div>
+    </section>
+  </main>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
