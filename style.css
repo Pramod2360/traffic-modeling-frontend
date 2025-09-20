@@ -1,0 +1,8 @@
+body { margin: 0; font-family: sans-serif; }
+header { background: #2c3e50; color: white; padding: 1em; text-align: center; }
+main { display: flex; height: calc(100vh - 80px); }
+.sidebar { width: 250px; background: #ecf0f1; padding: 1em; box-sizing: border-box; }
+.map-wrap { flex: 1; }
+#map { height: 100%; width: 100%; }
+button { width: 100%; padding: 0.5em; margin-top: 0.5em; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background: #2980b9; }
